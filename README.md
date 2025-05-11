@@ -67,7 +67,7 @@ By Suite : npm run assignment
   
 ## Allure report
 Ensure Chrome is installed since chromedriver is used. <br>
-For Allure Report ```npm run getResult ``` for enhanced reporting.
+For Allure Report ```npm run getResult``` for enhanced reporting.
 
 ---
 ![Report](assets/AllureReportAssignmentOstaad.png)
