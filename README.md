@@ -61,8 +61,9 @@ VerifyTaskThree File: specs/lverify_taskThree.spec.js
 
 > Running the Test
 ```
-npm run wdio
-By Suite : npm run assignment
+Separately : npm run wdio
+Sequential : npm run sequential
+
 ``` 
   
 ## Allure report

@@ -24,13 +24,15 @@ exports.config = {
     // The path of the spec files will be resolved relative from the directory of
     // of the config file unless it's absolute.
     //
-    // specs: [TaskThree_verify1Product],
+    specs: [TaskOne_login, TaskTwo_purchase3Products, TaskThree_verify1Product],
     suites: {
-        assignment: [
-            [TaskOne_login],
-            [TaskTwo_purchase3Products],
-            [TaskThree_verify1Product]
-        ]
+        assignmentSequential: [
+            [
+                TaskOne_login,
+                TaskTwo_purchase3Products,
+                TaskThree_verify1Product
+            ]
+        ],
     },
 
 
