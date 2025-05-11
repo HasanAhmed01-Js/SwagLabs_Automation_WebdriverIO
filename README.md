@@ -54,7 +54,9 @@ Framework: mocha
 Reporter: spec
 Services: chromedriver
 Use TypeScript: No
-Spec File: specs/search.spec.js 
+LoginTaskOne File: specs/login_taskOne.spec.js
+PurchaseTaskTwo File: specs/lpurchase_taskTwo.spec.js
+VerifyTaskThree File: specs/lverify_taskThree.spec.js
 ``` 
 
 > Running the Test
@@ -69,4 +71,3 @@ For Allure Report ```npm run getResult ``` for enhanced reporting.
 
 ---
 ![Report](assets/AllureReportAssignmentOstaad.png)
-![Report](assets/AllureReportAssignmentOstaad01.png)
